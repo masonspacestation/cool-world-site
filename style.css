@@ -26,7 +26,7 @@ header {
 }
 
 .nav-links>a {
-  margin-left: 25px;
+  margin-left: 45px;
   color: var(--white);
   text-decoration: none;
   text-transform: uppercase;
@@ -38,10 +38,9 @@ header {
 } */
 
 main {
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-  color: var(--yellow);
+  margin-left: 15%;
+  margin-right: 10%;
+  align-items: center;
   /* flex-grow: 100vh; */
 }
 
@@ -77,13 +76,17 @@ main img {
   width: 50%;
 }
 
+.w-40 {
+  width: 40%;
+}
+
 .w-80 {
   width: 80%;
 }
 
 .useful-links {
   background-color: var(--white);
-  padding: 25px;
+  padding: 45px;
 }
 
 footer {
@@ -117,7 +120,6 @@ p {
 }
 
 #hero-paragraph {
-  padding-left: 10%;
   padding-right: 10%;
 }
 
